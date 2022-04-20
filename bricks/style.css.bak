@@ -1,0 +1,38 @@
+.container {
+	
+    height:500px;
+    width: 80%;
+    margin-left: 10em;
+    overflow: hidden;
+    border: 2px solid black;
+    margin-top: 10em;
+    position: absolute;
+    background-color: green;
+	box-shadow: 0px 0px 10px 25px lightblue;
+	
+}
+
+.score,
+.lives {
+    font-size: 0em;
+}
+
+.brick {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 91px;
+    height: 40px;
+    padding: 1px;
+    color: white;
+    
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 40px;
+	background-image:url("birus.png");
+	background-size: 50px;
+}
+body {
+  background-image: url("kobid.jpg");
+background-size: cover;
+}
